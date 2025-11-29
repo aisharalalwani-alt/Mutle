@@ -22,12 +22,8 @@
 
 ![Homepage](assets/homepage.png)  
 *Main interface for browsing books*  
-
-![Player](assets/player.png)  
-*Built-in audio player for listening to books*  
-
-> **Note:** You can replace images in the `assets` folder with your own screenshots.
-
+ 
+ 
 ---
 
 ## 🛠️ Tech Stack
