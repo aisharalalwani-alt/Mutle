@@ -1,6 +1,6 @@
 # 📚 Matlaa – Audiobook Store
 
-![Matlaa Logo](assets/logo.png)  
+![Matlaa Logo](imgs/logo.png)  
 **Matlaa** is a digital platform for discovering, purchasing, and listening to audiobooks easily and seamlessly, built with **ASP.NET Core and C#** for a smooth and secure user experience.
 
 ---
