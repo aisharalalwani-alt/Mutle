@@ -1,36 +1,36 @@
-# 📚 مطلع – Audiobook Store
+# 📚 Matlaa – Audiobook Store
 
 ![Matlaa Logo](assets/logo.png)  
-**مطلع** هو منصة رقمية لاكتشاف، شراء، والاستماع للكتب المسموعة بسهولة وسلاسة، مبني باستخدام **ASP.NET Core وC#** لتجربة مستخدم سلسة وآمنة.
+**Matlaa** is a digital platform for discovering, purchasing, and listening to audiobooks easily and seamlessly, built with **ASP.NET Core and C#** for a smooth and secure user experience.
 
 ---
 
-## 🚀 الميزات الرئيسية
+## 🚀 Key Features
 
-| ميزة | الوصف | أيقونة |
-|------|-------|--------|
-| تصفح الكتب | استكشاف مكتبة متنوعة من الكتب المسموعة | 🔍 |
-| مشغل صوتي مدمج | الاستماع مباشرة للكتب على المنصة | 🎧 |
-| بحث وتصنيف | إيجاد الكتب حسب العنوان، المؤلف، أو النوع | 📝 |
-| حسابات المستخدمين | تسجيل الدخول وإدارة مكتبتك الشخصية | 👤 |
-| شراء وحفظ المفضلة | شراء الكتب بأمان وحفظها للرجوع لاحقًا | 🛒 |
-| تصميم متجاوب | تجربة رائعة على الهواتف وأجهزة الكمبيوتر | 📱 |
+| Feature | Description | Icon |
+|---------|------------|------|
+| Browse Books | Explore a diverse collection of audiobooks | 🔍 |
+| Built-in Audio Player | Stream audiobooks directly on the platform | 🎧 |
+| Search & Filter | Find books by title, author, or genre | 📝 |
+| User Accounts | Sign up, log in, and manage your personal library | 👤 |
+| Purchase & Wishlist | Securely purchase books and save favorites | 🛒 |
+| Responsive Design | Optimized for both desktop and mobile devices | 📱 |
 
 ---
 
-## 🖼️ لمحة عن الواجهة
+## 🖼️ Interface Preview
 
 ![Homepage](assets/homepage.png)  
-*واجهة المستخدم الرئيسية لتصفح الكتب*  
+*Main interface for browsing books*  
 
 ![Player](assets/player.png)  
-*مشغل الصوت المدمج للاستماع للكتب*  
+*Built-in audio player for listening to books*  
 
-> **ملاحظة:** يمكنك استبدال الصور في المجلد `assets` بصورك الخاصة.
+> **Note:** You can replace images in the `assets` folder with your own screenshots.
 
 ---
 
-## 🛠️ التقنيات المستخدمة
+## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap  
 - **Backend:** ASP.NET Core, C#  
@@ -39,11 +39,11 @@
 
 ---
 
-## ⚡ تثبيت وتشغيل المشروع
+## ⚡ Installation & Running
 
 ```bash
-# استنساخ المستودع
+# Clone the repository
 git clone https://github.com/username/matlaa.git
 
-# فتح المشروع في Visual Studio
+# Open the project in Visual Studio
 cd matlaa
