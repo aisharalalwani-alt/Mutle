@@ -1,0 +1,90 @@
+body{ 
+	background-image: url("b.png");  margin:0;
+  padding:0;
+   }
+   @import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+  @import url(http://fonts.googleapis.com/css?family=Raleway);
+  
+  {
+  background: rgba(254,144,144,1);
+  }
+  p{
+    font-family: Raleway, sans-serif;
+    margin: 2px;
+color:  rgba(254,144,144,1);
+
+white-space: nowrap; 
+width: 800px; 
+font: 1.2em "Fira Sans", sans-serif;
+padding: 3;
+text-align: left;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #8AC3C0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+textarea
+{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(255, 227, 234);
+    font-family: Raleway, sans-serif; 
+    height: 30%;  
+
+}
+input[type=button], input[type=submit], input[type=reset] {
+    border: none;
+    background-color: #54938F;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: auto;
+    font-family: Raleway, sans-serif;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+    align-self: center;
+    width: 25%;
+    height: 20%;
+    margin: 12px;
+}
+.div1{
+    width: 50%;
+    height: 80%;
+    margin: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: thin;
+}
+.div1{
+    width: 50%;
+    height: 80%;
+    margin: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: thin;
+}
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+.h1p {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    letter-spacing: -0.4px;
+    word-spacing: 0.6px;
+    color: #54938F;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    letter-spacing: 2px;
+}

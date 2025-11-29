@@ -1,0 +1,204 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="mutle.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>mutle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <%--bootstrap css--%>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--datatables css--%>
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+     <%--fontawesome css--%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+ 
+        <%--our custom css--%>
+    <link href="css/customstylesheet.css" rel="stylesheet" />
+ 
+    <%--jquery--%>
+    <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <%--popper js--%>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <%--bootstrap js--%>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+ 
+    <style>
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+label {
+  cursor: pointer;
+}
+label:focus {
+  outline: none;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 240px;
+  height: 100%;
+  transform: translate3d(-240px, 0, 0);
+  transition: transform 0.35s;
+}
+.menu label.menu-toggle {
+  position: absolute;
+  right: -60px;
+  width: 60px;
+  height: 60px;
+  line-height: 0px;
+  display: block;
+  padding: 0;
+  text-indent: -9999px;
+  background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
+}
+.menu ul li > label {
+  background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png) 95% 50%/16px 16px no-repeat;
+}
+.menu ul li a, .menu ul li label {
+  display: block;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #000;
+}
+.menu ul li a:hover, .menu ul li label:hover {
+  color: #666;
+}
+
+/* hide inputs */          
+.menu-checkbox {
+  display: none;
+}
+
+/* hide navigation icon for sublabels */    
+.menu .menu label.menu-toggle {
+  background: none;
+}
+
+/* fade in checked menu */    
+.menu-checkbox:checked + .menu {
+  transform: translate3d(0, 0, 0);
+}
+
+/* for show */
+html, body {
+  height: 100%;
+}
+
+body {
+      background-color: white;
+
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+#info {
+  display: table;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+}
+#info #info-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+}
+#info #info-content h1 {
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  font-weight: normal;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+}
+#info #info-content h1 strong {
+  display: block;
+  font-size: 26px;
+}
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="wrapper">
+  
+
+  <input type="checkbox" id="menu" name="menu" class="menu-checkbox">
+  <div class="menu">
+    <label class="menu-toggle" for="menu"><span>Toggle</span></label>
+    <ul>
+      <li>
+        <a href="#"><img src="imgs/logo.png" width="100" height="100" /></a>
+      </li>
+      <li>
+          
+        <a href="home.aspx">Home</a>
+      </li>
+        <li>
+          
+        <a href="book.aspx">books</a>
+      </li>
+     
+      <li>
+        <label for="menu-4">LOG IN</label>
+        <input type="checkbox" id="menu-4" name="menu-4" class="menu-checkbox">
+        <div class="menu">
+          <label class="menu-toggle" for="menu-4"><span>Toggle</span></label>
+          <ul>
+            <li>
+                
+                 <a href="login.aspx">Log In</a>
+            </li>
+            <li>
+                
+              <a href="new.aspx">New User</a>
+            </li>
+          </ul>
+        </div>
+      </li>      
+      <li>
+                  <a href="sub.aspx">Subscription</a>
+
+      </li>
+         <li> 
+                  <a href="about.aspx">About Us</a>
+        </li>
+      <li>
+          <a href="Connect.aspx">Connect</a>
+      </li>
+    </ul>
+  </div>
+</div><!-- #wrapper -->
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
